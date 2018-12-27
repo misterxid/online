@@ -104,10 +104,8 @@ cd sqlmap
 python2 sqlmap.py
 echo "terinstall bos " | lolcat
 fi 
-[ $sf = 5 ] || [ $sf = 5 ]
+if [ $sf = 5 ] || [ $sf = 5 ]
 then 
-Pkg update && pkg upgrade
-pkg install python2
 pkg install git
 git clone https://github.com/siputra12/prank
 cd prank
